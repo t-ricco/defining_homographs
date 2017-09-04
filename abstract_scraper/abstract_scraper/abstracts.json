@@ -1,0 +1,116 @@
+[
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-015-0001-5", "title": ["3D Printing in Medicine: an introductory message from the Editor-in-Chief"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Frank\u00a0J.\u00a0Rybicki</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["27\u00a0November\u00a02015"], "abstract": []},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0005-9", "title": ["Additively manufactured medical products \u2013 the FDA perspective"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Matthew\u00a0Di Prima</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["18\u00a0May\u00a02016"], "abstract": []},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0014-3", "title": ["Anatomic modeling using 3D printing: quality assurance and optimization"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Shuai\u00a0Leng</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["26\u00a0April\u00a02017"], "abstract": ["The purpose of this study is to provide a framework for the development of a quality assurance (QA) program for use in medical 3D printing applications. An interdisciplinary QA team was built with expertise from all aspects of 3D printing. A systematic QA approach was established to assess the accuracy and precision of each step during the 3D printing process, including: image data acquisition, segmentation and processing, and 3D printing and cleaning. Validation of printed models was performed by qualitative inspection and quantitative measurement. The latter was achieved by scanning the printed model with a high resolution CT scanner to obtain images of the printed model, which were registered to the original patient images and the distance between them was calculated on a point-by-point basis.", "A phantom-based QA process, with two QA phantoms, was also developed. The phantoms went through the same 3D printing process as that of the patient models to generate printed QA models. Physical measurement, fit tests, and image based measurements were performed to compare the printed 3D model to the original QA phantom, with its known size and shape, providing an end-to-end assessment of errors involved in the complete 3D printing process.  Measured differences between the printed model and the original QA phantom ranged from -0.32 mm to 0.13 mm for the line pair pattern. For a radial-ulna patient model, the mean distance between the original data set and the scanned printed model was -0.12 mm (ranging from -0.57 to 0.34 mm), with a standard deviation of 0.17 mm.", "A comprehensive QA process from image acquisition to completed model has been developed. Such a program is essential to ensure the required accuracy of 3D printed models for medical applications."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0007-7", "title": ["A rapid and intelligent designing technique for patient-specific and 3D-printed orthopedic cast"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Hui\u00a0Lin</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["22\u00a0September\u00a02016"], "abstract": ["Two point four out of 100 people suffer from one or more fractures in the course of average lifetimes. Traditional casts are featured as cumbersome structures that result in high risk of cutaneous complications. Clinical demands for developing a hygienic cast have gotten more and more attention. 3D printing technique is rapidly growing in the fabrication of custom-made rehabilitation tools. The objective of this study is to develop a rapid and intelligent modeling technique for developing patient-specific and hygienic orthopedic casts produced by 3D printing technologies.", "A cast model is firstly created from a patient\u2019s image to develop patient-specific features. A unique technique to creating geometric reference has been developed to perform detail modeling cast. The cast is modeled as funnel-shaped geometry to create smooth edges to prevent bruises from mild movements of injured limbs. Surface pattern includes ventilation structure and opening gap for hygienic purpose and wearing comfort. The cast can be adjusted to accommodate swelling from injured limbs during treatment. Finite element analysis (FEA) is employed to validate the mechanical performance of the cast structure and identify potential risk of the structural collapse due to concentrated stresses. The cast is fabricated by 3D printing technology using approval material.", "The 3D-printed prototype is featured as super lightweight with 1/10 of weight in compared with traditional alternatives. Medical technicians with few experiences can design cast within 20\u00a0min using the proposed technique. The image-based design minimizes the distortion during healing process because of the best fit geometry. The highly ventilated structure develops hygienic benefits on reducing the risk of cutaneous complications and potentially improve treatment efficacy and increase patients\u2019 satisfactions."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0004-x", "title": ["3D printing in medicine of congenital heart diseases"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Shi-Joon\u00a0Yoo</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["13\u00a0September\u00a02016"], "abstract": []},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0013-4", "title": ["Implementation of iterative metal artifact reduction in the pre-planning-procedure of three-dimensional physical modeling"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Roy\u00a0P.\u00a0Marcus</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["31\u00a0March\u00a02017"], "abstract": ["To assess the impact of metal artifact reduction techniques in 3D printing by evaluating image quality and segmentation time in both phantom and patient studies with dental restorations and/or other metal implants. An acrylic denture apparatus (Kilgore Typodent, Kilgore International, Coldwater, MI) was set in a 20\u00a0cm water phantom and scanned on a single-source CT scanner with gantry tilting capacity (SOMATOM Edge, Siemens Healthcare, Forchheim, Germany) under 5 scenerios: (1) Baseline acquisition at 120\u00a0kV with no gantry tilt, no jaw spacer, (2) acquisition at 140\u00a0kV, (3) acquisition with a gantry tilt at 15\u00b0, (4) acquisition with a non-radiopaque jaw spacer and (5) acquisition with a jaw spacer and a gantry tilt at 15\u00b0. All acquisitions were reconstructed both with and without a dedicated iterative metal artifact reduction algorithm (MAR). Patients referred for a head-and-neck exam were included into the study. Acquisitions were performed on the same scanner with 120\u00a0kV and the images were reconstructed with and without iterative MAR. Segmentation was performed on a dedicated workstation (Materialise Interactive Medical Image Control Systems; Materialise NV, Leuven, Belgium) to quantify volume of metal artifact and segmentation time.", "In the phantom study, the use of gantry tilt, jaw spacer and increased tube voltage showed no benefit in time or artifact volume reduction. However the jaw spacer allowed easier separation of the upper and lower jaw and a better display of the teeth. The use of dedicated iterative MAR significantly reduced the metal artifact volume and processing time. Same observations were made for the four patients included into the study.", "The use of dedicated iterative MAR and jaw spacer substantially reduced metal artifacts in the head-and-neck CT acquisitions, hence allowing a faster 3D segmentation workflow."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0012-5", "title": ["Medical 3D printing: methods to standardize terminology and report trends"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Leonid\u00a0Chepelev</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["17\u00a0March\u00a02017"], "abstract": ["Medical 3D printing is expanding exponentially, with tremendous potential yet to be realized in nearly all facets of medicine. Unfortunately, multiple informal subdomain-specific isolated terminological \u2018silos\u2019 where disparate terminology is used for similar concepts are also arising as rapidly. It is imperative to formalize the foundational terminology at this early stage to facilitate future knowledge integration, collaborative research, and appropriate reimbursement. The purpose of this work is to develop objective, literature-based consensus-building methodology for the medical 3D printing domain to support expert consensus.", "We first quantitatively survey the temporal, conceptual, and geographic diversity of all existing published applications within medical 3D printing literature and establish the existence of self-isolating research clusters. We then demonstrate an automated objective methodology to aid in establishing a terminological consensus for the field based on objective analysis of the existing literature. The resultant analysis provides a rich overview of the 3D printing literature, including publication statistics and trends globally, chronologically, technologically, and within each major medical discipline. The proposed methodology is used to objectively establish the dominance of the term \u201c3D printing\u201d to represent a collection of technologies that produce physical models in the medical setting. We demonstrate that specific domains do not use this term in line with objective consensus and call for its universal adoption.", "Our methodology can be applied to the entirety of medical 3D printing literature to obtain a complete, validated, and objective set of recommended and synonymous definitions to aid expert bodies in building ontological consensus."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0016-1", "title": ["Using computed tomography and 3D printing to construct custom prosthetics attachments and devices"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Peter\u00a0C.\u00a0Liacouras</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["22\u00a0August\u00a02017"], "abstract": ["The prosthetic devices the military uses to restore function and mobility to our wounded warriors are highly advanced, and in many instances not publically available. There is considerable research aimed at this population of young patients who are extremely active and desire to take part in numerous complex activities. While prosthetists design and manufacture numerous devices with standard materials and limb assemblies, patients often require individualized prosthetic design and/or modifications to enable them to participate fully in complex activities.", "Prosthetists and engineers perform research and implement digitally designs in collaboration to generate equipment for their patient\u2019s rehabilitation needs. 3D printing allows for these devices to be manufactured from an array of materials ranging from plastic to titanium alloy. Many designs require form fitting to a prosthetic socket or a complex surface geometry. Specialty items can be scanned using computed tomography and digitally reconstructed to produce a virtual 3D model the engineer can use to design the necessary features of the desired prosthetic, device, or attachment. Completed devices are tested for fit and function.", "Numerous custom prostheses and attachments have been successfully translated from the research domain to clinical reality, in particular, those that feature the use of computed tomography (CT) reconstructions. The purpose of this project is to describe the research pathways to implementation for the following clinical designs: sets of bilateral hockey skates; custom weightlifting prosthetic hands; and a wine glass holder.", "This article will demonstrate how to incorporate CT imaging and 3D printing in the design and manufacturing process of custom attachments and assistive technology devices. Even though some of these prosthesis attachments may be relatively simple in design to an engineer, they have an enormous impact on the lives of our wounded warriors."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0015-2", "title": ["Surgical reconstruction of the ossicular chain with custom 3D printed ossicular prosthesis"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Jeffrey\u00a0D.\u00a0Hirsch</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["27\u00a0July\u00a02017"], "abstract": ["Conductive hearing loss due to ossicular abnormalities occurs from many causes, including trauma, infection, cholesteatoma, surgery and congenital anomalies. Surgical reconstruction of the ossicular chain is a well-established procedure for repair of ossicular defects, but is still plagued by high failure rates. Underlying disease and proper sizing of prostheses are two challenges that lead to component failure. Three-dimensional (3D) printing has been used successfully to solve a number of medical prosthesis problems. Custom 3D printing an individualized ossicular prosthesis would be a potential solution for the wide range of anatomic variation encountered in the pathological middle ear, and could decrease the rate of post-operative prosthesis displacement by increasing the likelihood of a proper fit, in addition to decreasing surgical time.", "In this study, the incus was removed from three formalin-fixed cadaveric human temporal bones with no macro- or microscopic evidence of pathology. Imaging of the cadaveric bone was obtained using a standard temporal bone CT protocol. A custom prosthesis for each cadaveric human temporal bone was designed using the Mimics Innovation Suite software (Materialise, Belgium) and fabricated on a Form2 3D printer (FormLabs, Somerville, Massachusetts). Four surgeons then performed insertion of each prosthesis into each middle ear, blinded to the bone from and for which each was designed. The surgeons were asked to match each prosthesis to its correct parent bone.", "Each prosthesis had unique measurements. Each of the four surgeons was able to correctly match the prosthesis model to its intended temporal bone. The chances of this occurring randomly are 1:1296.", "A custom 3D printed ossicular prosthesis is a viable solution for conductive hearing loss due to ossicular chain defects. Commercially available CT scanners can detect significant anatomic differences in normal human middle ear ossicles. These differences can be accurately represented with current 3D printing technology and, more significantly, surgeons can detect these differences."]},
+{"url": "https://threedmedprint.springeropen.com/articles/10.1186/s41205-015-0002-4", "title": ["3D printed ventricular septal defect patch: a primer for the 2015 Radiological Society of North America (RSNA) hands-on course in 3D printing"], "authors": ["<span xmlns:func=\"http://oscar.fig.bmc.com\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"AuthorName\">Andreas\u00a0A.\u00a0Giannopoulos</span>", "<span class=\"EqualContributionSymbol\">\u2020</span>"], "publication": ["<span xmlns=\"http://www.w3.org/1999/xhtml\" class=\"JournalTitle\">3D Printing in Medicine</span>"], "publication_date": ["27\u00a0November\u00a02015"], "abstract": []}
+]!!!!!!!!!!!!!!!!!!!!
+
+ https://threedmedprint.springeropen.com 
+
+!!!!!!!!!!!!!!!!!!!
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0016-1 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0015-2 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0014-3 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0013-4 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-017-0012-5 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0005-9 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-015-0002-4 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0004-x 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-015-0001-5 
+
+#
+**********************************
+
+parse_journal_list:  https://threedmedprint.springeropen.com/articles/10.1186/s41205-016-0007-7 
+
+#
+$$$$$$$$$$$$$$$$
+
+finished:  ['3D Printing in Medicine: an introductory message from the Editor-in-Chief'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Additively manufactured medical products – the FDA perspective'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Anatomic modeling using 3D printing: quality assurance and optimization'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['A rapid and intelligent designing technique for patient-specific and 3D-printed orthopedic cast'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['3D printing in medicine of congenital heart diseases'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Implementation of iterative metal artifact reduction in the pre-planning-procedure of three-dimensional physical modeling'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Medical 3D printing: methods to standardize terminology and report trends'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Using computed tomography and 3D printing to construct custom prosthetics attachments and devices'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['Surgical reconstruction of the ossicular chain with custom 3D printed ossicular prosthesis'] 
+
+$
+$$$$$$$$$$$$$$$$
+
+finished:  ['3D printed ventricular septal defect patch: a primer for the 2015 Radiological Society of North America (RSNA) hands-on course in 3D printing'] 
+
+$
