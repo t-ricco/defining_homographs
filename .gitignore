@@ -1,2 +1,6 @@
 .DS_Store
 .ipynb_checkpoints
+
+data/journal.txt
+data/journal.txt.syn1neg.npy
+data/journal.txt.wv.syn0.npy
