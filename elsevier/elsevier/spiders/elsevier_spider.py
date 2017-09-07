@@ -12,7 +12,7 @@ class ElsevierSpider(scrapy.Spider):
     def parse(self, response):
         
         for href in response.xpath(
-            '//*[@id="introduction"]/table/tbody/tr[2]/td[1]/a'
+            '//*[@id="introduction"]/table/tbody/tr[2]/td[1]/a/@href'
         ).extract():
 
             yield scrapy.Request(
@@ -32,7 +32,7 @@ class ElsevierSpider(scrapy.Spider):
         for href in response.xpath(
             # '//div[@id="search-container"]/ol/li/article/div/h3/a/@href'
             #'//h3[@class="ResultsList_title"]/a/@href'
-            '//*[@id="LeftCol1"]/div[1]/a'
+            '//*[@id="LeftCol1"]/div[1]/a/@href'
         ).extract():
 
             #print('**********************************\n\nparse_journal_list: ',href,"\n\n#")
@@ -49,12 +49,16 @@ class ElsevierSpider(scrapy.Spider):
         url = response.request.meta['url']
 
         #print("!!!!!!!!!!!!!!!!!!!!\n\n",url,"\n\n!!!!!!!!!!!!!!!!!!!")
+        url_start = url.split('/')[0]
 
         for href in response.xpath(
             # '//div[@id="search-container"]/ol/li/article/div/h3/a/@href'
             #'//h3[@class="ResultsList_title"]/a/@href'
             '//*[@id="latest-published-articles"]/div/div/a/@href'
         ).extract():
+
+            cutoff = href.find('pdf')
+            href = url_start + href[:cutoff]
 
             #print('**********************************\n\nparse_journal_list: ',href,"\n\n#")
 
@@ -69,14 +73,16 @@ class ElsevierSpider(scrapy.Spider):
         items = ElsevierItem()
 
         url = response.request.meta['url']
-        title = response.xpath('//*[@id="react-root"]/div/div/div/div/section/div/div[2]/div[2]/div[2]/h1/span/text()').extract()[0]
-        authors = response.xpath('//*[@id="react-root"]/div/div/div/div/section/div/div[2]/div[2]/div[3]/div/div/div/text()').extract()
-        publication = response.xpath('//*[@id="react-root"]/div/div/div/div/section/div/div[2]/div[2]/div[1]/div[2]/h2/span/a/text()').extract()[0]
-        publication_date = response.xpath('//*[@id="react-root"]/div/div/div/div/section/div/div[2]/div[2]/div[1]/div[2]/div/span/text()[2]').extract()[0].split('\xa0')
-        abstract = response.xpath('//*[@id="sp0035"]/text()').extract()
+        title = response.xpath('//*[@class="article-title"]/span/text()').extract()
+        authors_given_names = response.xpath('//*[@class="text given-name"]/text()').extract()
+        authors_surnames = response.xpath('//*[@class="text surname"]/text()').extract()
+        publication = response.xpath('//*[@class="publication-title-link"]/text()').extract()
+        publication_date = response.xpath('//*[@class="publication-volume"]/div/span/text()').extract()[1]
+        abstract = response.xpath('//*[@class="Abstracts"]/div/div/p/text()').extract()[0]
+
         full_text = ''.join(response.xpath('//*[@id="react-root"]/div/div/div/div/section/div/div[2]/div[2]/article/div/text()').extract())
 
-        #authors = [''.join([y + ' ' for y in x.split('\xa0')]).strip() for x in authors]
+        authors = [' '.join(x) for x in zip(authors_given_names, authors_surnames)]
         #if len(abstract) > 0:
         #    abstract = abstract[0]
 
@@ -93,9 +99,9 @@ class ElsevierSpider(scrapy.Spider):
         items['title'] = title
         items['authors'] = authors
         items['publication'] = publication
-        items['publication_date'] = ''.join([x+' ' for x in publication_date]).strip()
+        items['publication_date'] = publication_date
         items['abstract'] = abstract
-        items['full_text'] =  full_text
+        items['full_text'] = full_text
 
         #print(items, "\n@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 
