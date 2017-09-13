@@ -6,3 +6,4 @@ data/journal.txt.syn1neg.npy
 data/journal.txt.wv.syn0.npy
 
 first_experiments/LDA_150.*
+first_experiments/LDA_150
